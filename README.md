@@ -1,4 +1,4 @@
-# Progressbar
+# Android自定义Progressbar
 
 #### [圆形进度条CircleBarView](https://github.com/AnliaLee/Progressbar/blob/master/src/main/java/com/anlia/progressbar/CircleBarView.java)
 
@@ -12,7 +12,7 @@
 
 #### [水波浪进度框WaveProgressView](https://github.com/AnliaLee/Progressbar/blob/master/src/main/java/com/anlia/progressbar/WaveProgressView.java)
 
-* 教程博客：[Android自定义View——从零开始实现水波浪进度框](http://www.jianshu.com/p/c52ceee36f70)
+* 教程博客：[Android自定义View——从零开始实现水波浪进度框](http://www.jianshu.com/p/34bbcd80dc7a)
 
 * 效果展示：
 

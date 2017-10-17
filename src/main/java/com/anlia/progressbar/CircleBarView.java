@@ -111,10 +111,12 @@ public class CircleBarView extends View {
         protected void applyTransformation(float interpolatedTime, Transformation t) {//interpolatedTime从0渐变成1,到1时结束动画,持续时间由setDuration（time）方法设置
             super.applyTransformation(interpolatedTime, t);
             progressSweepAngle = interpolatedTime * sweepAngle * progressNum / maxNum;
-            if(textView !=null){
-                textView.setText(onAnimationListener.howToChangeText(interpolatedTime, progressNum,maxNum));
+            if(onAnimationListener!=null){
+                if(textView !=null){
+                    textView.setText(onAnimationListener.howToChangeText(interpolatedTime, progressNum,maxNum));
+                }
+                onAnimationListener.howTiChangeProgressColor(progressPaint,interpolatedTime, progressNum,maxNum);
             }
-            onAnimationListener.howTiChangeProgressColor(progressPaint,interpolatedTime, progressNum,maxNum);
             postInvalidate();
         }
     }

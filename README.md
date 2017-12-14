@@ -2,7 +2,7 @@
 
 #### [圆形进度条CircleBarView](https://github.com/AnliaLee/Progressbar/blob/master/src/main/java/com/anlia/progressbar/CircleBarView.java)
 
-* 教程博客：[Android自定义View——从零开始实现圆形进度条](http://www.jianshu.com/p/c52ceee36f70)
+* 教程博客：[Android自定义View——从零开始实现圆形进度条](https://juejin.im/post/5a31df7c6fb9a045031018b3)
 
 * 效果展示：
 
